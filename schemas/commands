@@ -1,0 +1,18 @@
+## version 1 ##
+
+start
+stop
+go <direction>
+use <item-name>
+chat <entity-name>
+peek <direction>
+peek <item-name>
+
+
+## version 2 ##
+
+save
+reset
+load
+drop <item-name>
+take <item-name>
