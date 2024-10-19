@@ -1,0 +1,74 @@
+
+Some example items (how to easily associate with their characters? Is it just, in the entity details they are linked?)
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "name": "Portable Analytical Kit",
+        "description": "A small, durable case containing a multi-tool for chemical analysis, basic sensors, and a holographic display for reading results. Albrecht's go-to kit for field research."
+      },
+      {
+        "name": "Survival Charger",
+        "description": "A compact device that can recharge electronics through solar or kinetic energy. Designed for longer excursions into distant or dangerous locations."
+      },
+      {
+        "name": "AI Capsule",
+        "description": "A small, intricately carved container that houses Frida’s custom-built AI core. The capsule’s exterior is engraved with strange symbols and can only be opened by its creator."
+      },
+      {
+        "name": "Wind-Up Music Box",
+        "description": "An old relic from Frida’s childhood, playing a melancholic tune. It’s one of her few physical possessions beyond her bed and plant."
+      },
+      {
+        "name": "Gold Pocket Watch",
+        "description": "A family heirloom from Damien's grandfather’s era, reflecting his attachment to tradition and the old ways. It has an engraved insignia representing the city’s archaic political structure."
+      },
+      {
+        "name": "Data Key Ring",
+        "description": "Contains encrypted information on the city's zoning laws, land deeds, and political favors. A relic of Damien's power and influence."
+      }
+    ]
+  }
+}
+
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string",
+      "description": "TODO: Link to available entity, to decide",
+      "enum": [""]
+    },
+    "description": {
+      "type": "string",
+      "description": "The description of the entity"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "The image url of the entity"
+    },
+    "personality": {
+      "type": "string",
+      "description": "This is the system prompt that gets sent to the LLM"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "Name of the item"
+      },
+      "description": "The items are dropped by the entity"
+    },
+    "condition": {
+      "type": "string",
+      "description": "The condition under which the items are dropped"
+    }
+  }
+}
