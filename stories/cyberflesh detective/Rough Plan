@@ -5,4 +5,30 @@ CypherFlesh Detective:
 Mysterious Woman has a request; find her missing cat, 
 becomes a murder mystery when her neighbor is found dead.
 
+Start;
+Room 1
+Set scene in Detectives office, describe main character, describe world and setting.
+Interact: pick up the phone, 
+Call; character is coming up.
+Room 2
+She steps into the office, explaining situation.
+Transition to investigating around building of Client-> get into car description 
+Room 3
+Enter her Building, look for cat. 
+(opens up, can look around until event)
+
+Lobby (elevator, Bar, Patio)
+Upper Hallway (Woman door, neighbor door, elevator)
+Bar (Lobby, Patio)
+Patio (lobby, Patio)
+
+Event (murder)
+Murder occurs in building. (guranteed event) 
+changes past rooms if the event has occured (can be given an item such that all future rooms are changed in this way)
+Explore
+
+Find Items, choose murderer (use guilty item on a given character)- can be given to any of the characters, right or wrong.
+
+Each contains a different ending
+
 Steamboat Micky Mouse Scene 
