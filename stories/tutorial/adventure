@@ -1,0 +1,15 @@
+export interface Adventure {
+  id: string; // uuid
+  title: Tutorial;
+  description: A walk-through how to use play a dextra adventure! ;
+  image_url: string;
+  rooms: Room[1,2,3,4,5];
+  items: Item[tutorial goggles, tutorial achievement, tutorial keycard];
+  entities: Entity[Tutorial Manequin];
+  cost: number; 0
+  currency: string; // the token contract address
+  start_room: string; // the uuid of the starting room
+  end_room: string; // the uuid of the ending room
+  random_spawn: boolean; false
+  random_items: boolean; false
+}
