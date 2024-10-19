@@ -1,0 +1,10 @@
+export interface Entity {
+  name: "Tutorial Mannequin";
+  description: "A rough-shod patchwork of plastic and scrap that resembles a humanoid.";
+  type: EntityType;
+  image_url: string;
+  items: Item[Tutorial Keycard]; // items that the entity can give to the player
+  conditions: Condition[Entry]; // conditions that the player must meet to obtain item
+  difficulty: number; 0
+  params: object; // parameters for the entity's behavior (eg, personality)
+}
