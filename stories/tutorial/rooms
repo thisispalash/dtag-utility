@@ -1,0 +1,43 @@
+}
+
+export interface Room {
+  name: 1;
+  description: Welcome, this is your first room in dextra! You’re probably feeling a little worried, you’re not trapped! In fact, there’s an exit just there. Simply type (walk exit) and I’ll see you in the next room.;
+  exits: Exit[Room 2];
+  entities: Entity[];
+  items: Item[];
+  events: Event[];
+}
+
+export interface Room {
+  name: 2;
+  description: You’ve done it! Welcome to room two. You can see that the grey marble room has a single table in the center, and on it are a pair of glasses. Why don’t you try picking them up?;
+  exits: Exit[Room 3];
+  entities: Entity[];
+  items: Item[Tutorial Goggles];
+  events: Event[];
+}
+export interface Room {
+  name: 3;
+  description: Alright, now take a look around you. Try it again with the room ahead of you!;
+  exits: Exit[Room 4];
+  entities: Entity[];
+  items: Item[];
+  events: Event[];
+}
+export interface Room {
+  name: 4;
+  description: This is a simple green-room, with walls of felt the shade of fresh-cut-grass. In the middle of the room a lone chair is occupied;
+  exits: Exit[Room 5];
+  entities: Entity[Tutorial Manequin];
+  items: Item[Keycard];
+  events: Event[];
+}
+export interface Room {
+  name: 5;
+  description: You’ve done it! Wow! A whole tutorial? Now, why not get started playing one of the games built in dextra, or get started building yourself!;
+  exits: Exit[];
+  entities: Entity[];
+  items: Item[Finish Tutorial Achievement];
+  events: Event[Reject Unless Keycard];
+}
