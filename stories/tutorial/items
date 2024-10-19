@@ -1,0 +1,23 @@
+
+export interface Item {
+  name: Tutorial Goggles;
+  description: A pair of heavy VR glasses, they light up as soon as your hand touches them;
+  type: ItemType;
+  image_url: string;
+  effect: enables peak at tutorial room alt text;
+}
+
+export interface Item {
+  name: Tutorial Keycard;
+  description: string;
+  type: ItemType;
+  image_url: string;
+  effect: Allows entry to room 5 of the tutorial;
+}
+export interface Item {
+  name: Tutorial Trophy;
+  description: A heavy piece of cheap metal which represents a middling achievement.;
+  type: achievement;
+  image_url: string;
+  effect: Effect;
+}
