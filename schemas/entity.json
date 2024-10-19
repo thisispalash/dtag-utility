@@ -25,8 +25,8 @@
     "items": {
       "type": "array",
       "items": {
-        "type": "object",
-        "$dynamicRef": "item"
+        "type": "string",
+        "description": "Name of the item"
       },
       "description": "The items are dropped by the entity"
     },
