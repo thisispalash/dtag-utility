@@ -84,54 +84,71 @@ Description: The grand library is vast, with towering bookshelves stretching int
 Exit: Secret Shrine, Wizards Study, Alchemy Lab
 
 Room: Secret Shrine
+Description: The walls of this hidden chamber are adorned with faded murals depicting long-forgotten deities and obscure rites. Ancient candles, their flames flickering weakly, illuminate the shrine's central altar—a stone slab covered in offerings of dried flowers, aged bones, and tarnished coins. A faint, almost inaudible chant resonates through the air, as if the room itself whispers to you. The scent of incense mingles with the lingering staleness of the crypt, suggesting prayers offered in desperation long ago. Return to library? 
 Exit: Library
 
 Room: Wizards Study
+Description: This secluded room is filled with old scrolls and alchemical ingredients, stored haphazardly in dusty shelves and on cluttered tables. The walls are lined with dark, heavy drapes, obscuring strange sigils carved into the stone. A lone window, cracked and filthy, lets in just enough light to reveal scattered bones on the floor and an unfinished ritual circle. Strange devices lie on a workbench, their purpose long forgotten, while a heavy crystal menacingly pulses. Return to the library?
 Exit: Library
 
 Room: Alchemy Lab 
+Description: The air in this dimly lit room is thick with the acrid stench of volatile chemicals. Rusted cauldrons bubble over faintly glowing embers, and glass jars filled with preserved organs and twisted creatures line the shelves. In the center, a large stone table bears the remnants of an unfinished experiment—dried blood, shattered glass, and fragments of ancient tomes. The walls are etched with intricate alchemical symbols, their meanings lost to time. Narrow passages lead to the Blood Machine and an overgrown Graveyard.
 Exit: Blood Machine, Graveyard
 
 Room: Graveyard
+Description: You step into a fog-choked graveyard, where ancient headstones lean at odd angles and skeletal trees claw at the murky sky. The ground is uneven and riddled with shallow graves, many of which appear to have been disturbed from within. A cold, unnatural chill hangs in the air, and every step you take seems to disturb something unseen. Wisps of fog drift through the dark, and in the distance, you can hear the faint scraping of bone against stone. A path leads towards the Crypt. Return to the alchemy lab?
 Exit: Alchemy Lab, Crypt
 
 Room: Crypt
+Description:The crypt is a massive underground chamber filled with rows of stone sarcophagi, each marked with the names of the long-dead. Cobwebs drape across the walls and ceiling, and the air is thick with dust and decay. Flickering torches cast grotesque shadows, revealing ancient carvings depicting rites of burial and judgment. At the far end of the crypt lies a heavy stone door leading to the Temple of Atonement and the Graveyard.
 Exit: Graveyard, Locked Cell 1, Temple of Atonement 
 
 Room: Temple of Atonement
+Description: The temple’s grand hall is filled with broken statues of saints and sinners alike, their expressions frozen in agony or reverence. The floor is covered in a mosaic of shattered glass, its original design long since obscured by age and neglect. A massive altar stands at the far end, where ancient priests once conducted dark rituals to appease or curse the souls of the condemned. Faint traces of sacrificial blood stain the stones. A towering archway leads to the Crystal Cathedral and back to the Crypt.
 Exit: Crypt, Crystal Cathedral
 
 Room: Crystal Cathedral
+Description: The Crystal Cathedral is a vast, towering structure, its walls lined with translucent crystal formations that reflect and refract the faintest light. The ceiling stretches high above, lost in darkness, with suspended crystal chandeliers flickering with ghostly flames. The air is chillingly cold, and the sound of dripping water echoes faintly. The ground is uneven, with patches of sharp crystal jutting out like broken glass. Ancient scriptures carved into the crystal walls hint at forbidden knowledge. From here, twisting paths lead towards the Labyrinthine Warrens, the Temple of Atonement, and a somber Tomb of the Founder.
 Exit: Temple of Atonement, Labarynthine Warrens, Tomb of the Founder
 
 Room: Tomb of the Founder
+Description: This vast chamber lies beneath the towering Crystal Cathedral. The air here is cold and heavy, filled with a sense of ancient sorrow. At the center of the tomb lies an ornately carved sarcophagus, adorned with faded runes and depictions of long-forgotten rituals. The walls are lined with statues of ancient figures, their faces worn smooth by centuries of neglect. Shadows gather in the corners, and a faint light flickers from candles that should have burned out long ago. The silence is almost suffocating, broken only by the occasional echo of dripping water. Return to the Crystal Cathedral?
 Exit: Crystal Cathedral
 
 Room: Down
+Description: The stone staircase spirals downwards into darkness, the walls gradually narrowing as you descend. Ancient cobwebs stretch across the passage, brushing against you with an unsettling familiarity. The air grows colder with each step, carrying the scent of damp earth and old stone. The occasional creak of wood or clinking chain suggests movement below, but the source remains hidden. A dark landing awaits, leading either further into the depths or back up to the Castle Tower.
 Exits: Down 2, Castle Tower
 
-Room: Down 2
+Room: Depths
+Description: The staircase comes to an abrupt end at a narrow corridor. The walls are closer here, pressing in like the clenched fist of some unseen force. The passage is lined with old, rusted lanterns, their glass cracked and darkened by soot. The air is heavy with the scent of mildew and something else—something rancid and old. This space feels intentionally oppressive, as if designed to crush the spirit. From here, passages lead to an Ominous Doorway, a Cave Opening, and a threatening Crushing Room. Or you can return to where you came from, which is for some reason called 'down' despite being back up the stairs.
 Exits: Down, Ominous Doorway, Cave Opening, Crushing Room
 
 Room: Crushing Room
-Exit: Down 2
+Description: The ceiling here is disturbingly low, and the walls are lined with massive, ancient gears and pulleys. The floor is uneven, with narrow grooves suggesting the movement of something heavy in the past. The machinery emits a dull, rhythmic thumping noise that reverberates through the stone, as if the walls themselves are breathing. The gears are worn and rusted, but the stains on the floor and walls suggest that this room once saw heavy, and perhaps lethal, use. There is a palpable sense of danger in this place.
+Exit: Depths
 
 Room: Ominous Doorway
+Description: The doorway is heavy and ornate, with dark iron reinforcements and faded carvings of monstrous figures. The door is slightly ajar, revealing only a thin sliver of darkness beyond. A cold draft seeps through, carrying with it the faint sound of whispers and the cloying scent of old death. The passage beyond is shrouded in shadows, leading deeper into the Labyrinthine Tunnels. Stepping through feels like crossing an unseen threshold, leaving the familiar world behind.
 Exit: Labyrinthine tunnels
 
 Room: Cave Opening
-Exit: Sewers, Down 2, Cavern
+Description: The cavern is a vast, open space, its ceiling lost in darkness. The air is thick with the scent of damp earth and the distant roar of rushing water. Stalactites hang ominously from above, and faint echoes suggest something moving in the unseen depths. The walls are lined with ancient carvings, depicting creatures and symbols that have long since faded. A narrow path leads towards the Windy Tunnels, while a small opening reveals a dark River winding its way through the rocks.
+Exit: Sewers, Depths, Cavern
 
 Room: Cavern
+Description: The cavern is a vast, open space, its ceiling lost in darkness. The air is thick with the scent of damp earth and the distant roar of rushing water. Stalactites hang ominously from above, and faint echoes suggest something moving in the unseen depths. The walls are lined with ancient carvings, depicting creatures and symbols that have long since faded. A narrow path leads towards the Windy Tunnels, while a small opening reveals a dark River winding its way through the rocks. Perhaps return to the cave opening?
 Exit: Cave Opening, Windy Tunnels, River
 
 Room: Sewers
+Description: The sewers are a network of twisting tunnels, their walls slick with filth and the remains of long-dead creatures. The air is thick with the stench of rot and waste, and the faint sound of rushing water can be heard from somewhere deep within. Faint lanterns flicker on the walls, barely pushing back the darkness. The ground is uneven, covered in murky water and littered with broken bones and discarded refuse. There is a sense of unease here, as if something unseen watches from the shadows. Perhaps head to the cave opening? Surely not the Musty laboratory or the rat pit?!
 Exit: Cave Opening, Musty Laboratory, Rat Pit
 
 Room: Musty Laboratory 
+Description: This small, forgotten room is cluttered with broken tables and rusted equipment. Glass jars filled with murky liquids line the shelves, their contents obscured by layers of grime. The air is thick with the smell of old chemicals and decay, and the floor is littered with broken glass and crumpled parchment. Strange diagrams are scrawled on the walls, hinting at twisted experiments conducted in secrecy. The atmosphere feels heavy with the weight of dark knowledge. Well, back to the sewers or the rat pit huh?
 Exit: Rat Pit, Sewers
 
 Room: Rat Pit
+Description: The pit is a large, sunken chamber filled with the stench of decay and the scurrying of unseen creatures. The floor is littered with bones and gnawed remains, and the walls are scarred with claw marks. The darkness here is oppressive, broken only by the occasional glint of red eyes watching from the shadows. The sound of rats moving through the refuse is constant, and the pit seems to pulse with a life of its own. Narrow tunnels lead back to the Musty Laboratory and the Sewers, with a winding path branching off deeper into the Winding Tunnels.
 Exit: Musty Laboratory, Sewers, Winding Tunnels
 
 Room: Winding Tunnels
