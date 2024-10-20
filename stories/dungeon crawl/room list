@@ -1,52 +1,70 @@
 Room: Dungeon Cell
+Description: You awaken to the dim flicker of a dying torch. The cell reeks of mildew and iron, with thick chains strewn on the blood-stained floor. The walls are old, damp stones, each bearing the scars of desperate scratches. Your breaths echo faintly, swallowed by the darkness beyond the rusted bars. There’s a heaviness in the air—a weight of hopelessness and decay that seems to press down with every heartbeat. Somehow the door has opened in the night, and the prison hallway beckons.
 (Item: Torch)
 Exits: (Prison Hallway)
 
 Room: Prison Hallway
+Description: A cold draft sweeps through the narrow passage, carrying the scent of rot and dried blood. Torches line the stone walls, their weak flames barely pushing back the darkness. The flickering light casts moving shadows that dance like restless spirits. On either side, heavy iron doors, locked tight, guard what remains of the prisoners who once filled this wretched place. The sound of dripping water echoes from somewhere deep within, as does the occasional whisper of something moving unseen.
 Exits (Locked Cell 1, Dungeon Cell, Locked Cell 2, Guard Room)
 
 Room: Locked Cell 1
+Description: The air in this cell is stagnant, filled with the overwhelming stench of rot. The stone floor is strewn with bones, picked clean by whatever vermin inhabit these halls. Tattered rags and broken manacles suggest a prisoner’s failed attempt at freedom. In the corner, you see what remains of a desperate message etched into the stone: “Beware the light.” Return to the prison hallway?
 Exits: Prison Hallway
+
 Room: Locked Cell 2
+Description: This cell is colder than the others, as if something beyond the physical lingers here. Broken iron chains are embedded into the stone walls, and the remnants of shackles still hang from them. Strange runes are carved into the stone, their meaning long lost to time, but their presence disturbs you in some primal way. Faint murmurs seem to whisper from the cracks in the walls, pleading to be heard. Return to the prison hallway?
 Exits: Prison Hallway
 
 Room: Guard Room
+Description: You enter a large chamber, once occupied by the jailers of this wretched place. A long wooden table, now half-rotted and covered in dark stains, dominates the center. Old suits of armor line the walls, worn and brittle with age. A single torch sputters on a rusted sconce, barely providing enough light to illuminate the corners of the room. A narrow staircase winds upwards towards a Castle Tower. The smell of burnt flesh lingers faintly, hinting at what lies down the Cobblestone Hallway.
 Exits: Prison Hallway, Secret StorageRoom, Cobblestone Hallway, castle tower
 
 Room: Secret StorageRoom
+Description: This hidden room is cluttered with long-forgotten relics and grim trophies. Chests of splintered wood and rusted iron are piled in disorganized heaps. The walls are lined with ancient scrolls, their texts obscured by layers of dust. Dark stains mark the stone floor, and a mummified corpse sits slumped against the wall, fingers still clutching a brittle parchment. There is a pervasive sense of something watching, though the room appears empty. Return to the guard room?
 Exit: Guard Room
 
 Room: Cobblestone Hallway
+Description: The cobblestone path is narrow and uneven, with dark stains marking places where prisoners met their end. Bones crunch underfoot, and the walls feel like they’re closing in, with barely enough space to stretch your arms. An ancient furnace lies to the side, its grates rusted and gaping like a mouth ready to consume. Farther down, the hallway splits towards a Torture Room, and a locked door to Locked Cell 3.
 Exits: LockedCell 3, Torture Room, Furnace, Guard Room
 
 Room:  Locked Cell 3
+Description: This cell feels different—older, more cursed than the others. The chains that once held prisoners have long since rusted into brittle, useless fragments. Dried blood covers the walls, and deep gouges suggest a furious struggle. A single, fragile candle flickers feebly on the floor, casting faint light on what looks like an old, tattered cloak, untouched for decades. Return to the cobblestone hallway?
 Exit: Cobblestone Hallway
 
 Room:  Torture Room
+Description: The air here is heavy with the scent of blood and iron. Rusted instruments of pain—racks, iron maidens, and serrated blades—are strewn about haphazardly, each stained with the dark evidence of past suffering. Chains dangle from the ceiling, swaying slightly despite the absence of a breeze. Bones litter the ground, and the stone walls bear deep gouges as if someone—or something—tried to claw its way out. The echoes of distant screams seem to seep from the walls, a grim reminder of the room’s history. Return to the Cobblestone Hallway?
 Exit: Cobblestone Hallway
 
 Room:  Furnace
+Description: The walls of this narrow chamber are blackened with soot, and the heat is stifling. A massive iron furnace sits at the center, its mouth gaping wide like the maw of some infernal beast. The faint, acrid stench of burnt flesh lingers, and remnants of charred bones are scattered near the furnace’s grates. Glowing embers pulse dimly within, casting flickering shadows across the room. The low, unsettling hum of the furnace fills the space, suggesting it is still hungry for more. Return to the Cobblestone Hallway?
 Exit: Cobblestone Hallway
 
 Room: Castle Tower
-Exits: Castle Exit (locked), Up, Down
+Description: The stone staircase spirals upward, winding around the ancient walls of the tower. Faded banners, once bearing the insignia of a forgotten house, hang tattered and torn. The walls are cold to the touch, their surfaces pitted and worn from centuries of wind and rain. The air grows heavier as you ascend, a feeling of oppressive weight pressing down from above. A locked iron gate blocks the Castle Exit, its ancient keyhole sealed by rust. Back to the guard room, up, or down?
+Exits: Castle Exit (locked), Up, Down, Guard Room
 
 Room: Up
+Description: The spiral staircase narrows, and the darkness deepens. The walls here are marked with claw-like scratches and faded symbols, remnants of a ritual long forgotten. The faint light from below fades as you ascend, and the sound of your footsteps echoes unnervingly. Each step seems to draw you deeper into the cold embrace of the tower’s heights. Up, or back to the castle tower?
 Exits: Up 2, Castle Tower
 
 Room: Up 2
-Exits Tower Roof
+Description: This landing is little more than a narrow platform, exposed to the elements. The wind howls through broken windows, and rainwater drips steadily from the ceiling. Lightning occasionally illuminates the walls, revealing ancient runes that glow faintly when struck by the light. A narrow set of stairs leads to the Tower Roof above.
+Exits: Tower Roof, Up
 
 Room: Tower Top
+Description: The roof of the tower is open to the night sky, with cold winds whipping through the crumbling battlements. The fog rolls in thick and heavy, obscuring the landscape beyond. A massive bridge connects the tower to an unseen destination in the distance. A rusted telescope stands on a pedestal, pointed towards the horizon. It is covered in a layer of dust and grime, but its lens seems strangely intact, waiting for someone to peer through it.
 Exits: Telescope, Bridge
 
 Room: Telescope
-Exits: Tower Top
+Description: The telescope stands silently, a relic from another age. Its bronze casing is tarnished and worn, but the lens remains surprisingly clear. Gazing through it, you can make out faint silhouettes in the fog—a glimpse of ruined structures, half-submerged in the distant mist. The air around the telescope is noticeably colder, and your breath forms visible puffs as you exhale. Something about this place feels ancient and watching, as if eyes long forgotten are observing from the shadows. Go to the bridge?
+Exits: Bridge
 
 Room: Bridge
+Description: The ancient bridge stretches over a deep chasm, its stonework cracked and weathered by centuries of neglect. Thick fog rolls in from below, obscuring the depths and occasionally parting to reveal jagged rocks far below. Old chains dangle from the edges, their purpose long forgotten, swaying gently in the cold wind. The only sounds are the distant whispers of the wind and the faint echoes of unseen movement in the fog. The bridge leads towards the Gatehouse from the tower top, its towering structure barely visible through the mist.
 Exits: Tower Top, Gatehouse
 
 Room: Gatehouse
+Description: This heavy structure guards the entrance to the castle grounds, with thick, iron-banded doors looming ominously. The gatehouse is dark and suffocating, with narrow slits in the walls that allow only thin shafts of pale light to pierce the gloom. The air smells of old blood and rust, and a lingering sense of dread hangs heavily in the cold, damp air. A set of heavy chains hangs from the ceiling, connected to rusted mechanisms that once controlled the gate. To the side, worn pathways lead deeper into the castle. It may be worth returning to the bridge, rather than going to the LIbrary, or the execution chamber, or the branding room.
 Exits: Bridge, Execution Chamber, Branding room, Library
 
 Room: Execution Chamber
