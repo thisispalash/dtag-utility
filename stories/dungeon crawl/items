@@ -1,0 +1,35 @@
+**Torch** (Guard room): A half-burnt torch lies discarded in the corner, its feeble flames struggling against the encroaching shadows.
+Effect: Grants Peak
+
+**Glowing Moss** (Cavern): A faintly luminescent moss that can be used to create a healing salve or consumed directly to restore a small amount of health.
+Description: This moss is a soft, velvety cluster of tendrils that emits a faint, greenish-blue glow. It clings to the damp, shadowed corners of the cavern, almost appearing as if it’s breathing with a gentle pulse. Each tendril is thin and delicate, with a slight shimmer when touched. The moss feels cool to the touch and has a faintly sweet, earthy aroma. Its subtle luminescence reveals the tiniest details of the surrounding stone and leaves faint trails of light on the fingertips when handled.
+Effect: Health Up
+
+**Ancient Chalice** (Crypt): Drinking from this sacred chalice restores health and provides temporary resistance to curses and poison.
+Description: The **Ancient Chalice** is crafted from dark, tarnished silver with intricate engravings of long-forgotten gods and swirling motifs of vines and serpents. The rim is slightly chipped from centuries of use, and the inside is stained with the deep red residue of old rituals. The base of the chalice is heavy and adorned with small, inset gemstones that have lost their luster. When held, the chalice feels cold to the touch, and a faint whispering can be heard, as if the souls of those who drank from it long ago are lingering within.
+Effect: Energy Up
+
+**Witch’s Grimoire** (Witch Coven): Reading the right incantation from the book can restore health but might cost something else in return.
+Description: This ancient tome is bound in worn, blackened leather with deep grooves and strange, twisted symbols carved into its cover. The pages are thick and brittle, yellowed with age and stained in places with old blood or wax from countless rituals. The writing within is a chaotic mix of runes, symbols, and incantations written in a looping, unnatural hand. The spine of the book creaks ominously when opened, and the air around it feels heavy, as if the book itself is sentient. Occasionally, the letters seem to shift, as if testing the reader’s resolve.
+Effect: Energy Up
+
+**Vial of Coagulated Blood** (Blood Machine): A dark and viscous liquid that, if consumed, poisons and slowly drains health over time.
+Description: This small, glass vial is sealed with a rusted metal cap, and inside is a dark, thick liquid that almost seems to move of its own accord. The blood within is nearly black, with an unsettling sheen that hints at an unnatural origin. When the vial is shaken, the liquid doesn’t slosh like normal blood but moves slowly, almost deliberately. The vial is etched with old symbols and a warning in a language that has long been forgotten. A faint metallic and coppery scent lingers around it, enough to make the stomach turn.
+Effect: Health down
+
+**Old Elixirs** (Alchemy Lab): These dark liquids offer a temporary boost of energy and sharpness, helping the player move faster and focus in dangerous situations.
+Description: The **Old Elixirs** are contained in several small, twisted glass bottles, each with a different dark liquid inside. The glass is clouded and warped from age, and the cork stoppers are worn and brittle. Each bottle has an old, faded label with cryptic descriptions, and the liquids inside range from deep purples and inky blacks to dark reds and greens. When the bottles are uncorked, they emit a sharp, acrid scent that tingles the nostrils and feels like it’s almost burning the air. The elixirs bubble slightly when poured, hinting at their volatile nature.
+Effect: Energy Up
+
+**Half-Empty Flask** (Guard Room): Filled with a strong spirit, it temporarily invigorates the player, increasing their energy and reducing fatigue.
+Description: This battered, tarnished metal flask has seen better days. Its surface is scratched and dented, and the screw cap squeaks noisily when opened. Inside, the liquid is a dark amber color and has a strong, pungent scent that suggests a highly potent spirit. The flask is engraved with an old emblem, worn smooth over time. When held, the flask feels surprisingly warm, and the liquid inside sloshes heavily, as if it’s thicker than water. A single sip leaves a burning sensation that spreads warmth through the veins.
+Effect: 
+
+**Founder’s Seal** (Tomb of the Founder): Needed to unlock the path to the **Exit** and completing the game.
+Description: The **Founder’s Seal** is a large, heavy medallion made of dark iron, tarnished with age. The seal bears the mark of the ancient founder—a stylized symbol of a serpent encircling a sword. The edges of the seal are chipped and worn, and the surface is covered in fine etchings of old words and phrases, their meanings long lost. It feels unnaturally cold to the touch and vibrates faintly when held, as if reacting to the proximity of something ancient and powerful. When brought close to the right place, the etchings seem to emit a faint, eerie glow.
+Effect: Plot
+
+**Ancient Compass** (Labyrinthine Warrens): Points to a secret door or hidden path that changes the course of the journey.
+Description: This compass is an ancient, brass instrument with a glass cover that’s fogged and cracked in places. The needle inside quivers incessantly, never settling on a true direction. It is inscribed with runes and intricate designs on its rim, hinting at its mystical properties. The compass feels unnervingly warm to the touch, and the glass occasionally darkens, as if reacting to something unseen. When held in the correct location, the needle points firmly in a new direction, guiding the holder towards paths that were previously unknown.
+Effect: Grants peak
+
