@@ -27,39 +27,39 @@ Description: A sterile, cold room filled with blinking consoles and towering equ
 Exits: Secret Tunnel, Cypherflesh 
 
 Room: X-Lounge
-Description: A dimly lit lounge with plush velvet couches and low tables, filled with the murmur of discreet conversations. The exits lead to a smoky bar, a shadowy bathroom, or the enticing, velvet-curtained opium den.
+Description: A dimly lit lounge with plush velvet couches and low tables, filled with the murmur of discreet conversations. The exits lead to a smoky bar, the bathroom, or the enticing, velvet-curtained opium den.
 Exits: Bar, Bathroom, Opium Den
 
 Room: Bar
-Description: A dim, smoky bar where glasses clink and low jazz reverberates through the walls. Bartenders pour drinks under soft lighting.
+Description: A dim, smoky bar where glasses clink and low jazz reverberates through the walls. Bartenders pour drinks under soft lighting. The door to the bathroom is in constant motion as patrons enter and exit. The music from the X-Lounge plays loudly through the walls.
 Exits: X-Lounge, Bathroom
 
 Room: Bathroom
-Description: The bathroom is a cramped, dimly lit space with cracked tiles and an overhead light that buzzes faintly. The stale air smells of disinfectant and smoke from the nearby bar.
+Description: The bathroom is a cramped, dimly lit space with cracked tiles and an overhead light that buzzes faintly. The stale air smells of disinfectant and smoke from the nearby bar. Someone is playing old-school techno in the X-Lounge.
 Exits: X-Lounge, Bar 
 
 Room: Opium Den
-Description: Thick, aromatic smoke hangs in the air of the opium den, where patrons recline on cushioned floors and heavy curtains obscure the outside world. There is a heavy iron door in the back. 
+Description: Thick, aromatic smoke hangs in the air of the opium den, where patrons recline on cushioned floors and heavy curtains obscure the outside world. There is a heavy iron door in the back leading to Ronalds Office. 
 Exits: X-Lounge, Ronalds Office
 
 Room: Ronalds Office
-Description: A private office with heavy wooden furniture and a large desk cluttered with ledgers and empty glasses. The walls are adorned with old portraits and maps, and Ronald himself is often found behind the desk, shuffling through papers or meeting clandestine visitors.
-Exits: X-Lounge
+Description: A private office with heavy wooden furniture and a large desk cluttered with ledgers and empty glasses. The walls are adorned with old portraits and maps, and Ronald himself is often found behind the desk, shuffling through papers or meeting clandestine visitors. Ronald makes it clear that he would prefer visitors return to the Opium Den.
+Exits: Opium Den
 
 Room: Car
-Description: The detective’s car is a compact, retrofitted vehicle with reinforced windows and worn leather seats, giving it a well-traveled feel. The cityscape passes in blurred neon as the car navigates narrow streets.
+Description: The detective’s car is a compact, retrofitted vehicle with reinforced windows and worn leather seats, giving it a well-traveled feel. The cityscape passes in blurred neon as the car navigates narrow streets. Tonight, it makes sense to check out the Owl and the Bull, or the Valerien High-Rise lobby and scene of the murder. That being said, going back to the garage or to the detectives apartment might be more pleasant.
 Exits: Garage, Detective’s Apartment, The Owl and the Bull, Valeries High-Rise Lobby
 
 Room: Detective’s Apartment
-A small, dim apartment with sparse decorations, reflecting a life lived mostly on the move. A door leads to the living room, where the detective spends brief moments away from his whiskey.
+Description: A small, dim apartment with sparse decorations, reflecting a life lived mostly on the move. A door leads to the living room, where the detective spends brief moments away from his whiskey. The living room beckons with a cool light, though the detective should probably head back to his car and get on the case.
 Exits: Car, Living Room
 
 Room:Living Room
-Description: A modest, cluttered living room with mismatched furniture and a dusty TV displaying static images. Papers and case files are scattered on a coffee table, and a small window overlooks the city below.
+Description: A modest, cluttered living room with mismatched furniture and a dusty TV displaying static images. Papers and case files are scattered on a coffee table, and a small window overlooks the city below. A faint gramaphone tune can be heard from the main room of the Detectives apartment. 
 Exits: Detective’s Apartment
 
 Room: The Owl and the Bull
-Description: Neon lights frame the famed hang-out of the citys rich and famous. Entrance is barred to the common-folk of the city, only a select few chosen members are able to enter via bioscanner.
+Description: Neon lights frame the famed hang-out of the citys rich and famous. Entrance is barred to the common-folk of the city, only a select few chosen members are able to enter via bioscanner. The detective has a connection in the back alley in the kitchen staff, though without a pass it might be best to go back to the car.
 Exits: Car, Lounge, Back Alley
 
 Room: Lounge
@@ -67,15 +67,15 @@ Description:  plush, dimly lit space within The Owl and the Bull, where influent
 Exits: Council Chamber, The Owl and the Bull, Kitchen
 
 Room: Council Chamber
-Description:  grand hall lined with old portraits and tall marble pillars, where decisions that shape the city are made. The air is heavy with the weight of tradition, and the room is filled with whispered arguments and the occasional echo of a gavel.
+Description:  A grand hall lined with old portraits and tall marble pillars, where decisions that shape the city are made. The air is heavy with the weight of tradition, and the room is filled with whispered arguments and the occasional echo of a gavel. Armed guards smirk whenever the detective tries to go further into the room. The only option seems to be heading back into the lounge.
 Exits: Lounge
 
 Room: Kitchen
-Description: A chaotic, steamy kitchen where cooks prepare lavish meals for The Owl and the Bull’s patrons. The sounds of sizzling pans and chopping knives create a hurried rhythm, with a back door leading to the alley for quick escapes or covert exchanges.
+Description: A chaotic, steamy kitchen where cooks prepare lavish meals for The Owl and the Bull’s patrons. The sounds of sizzling pans and chopping knives create a hurried rhythm, with a back door leading to the alley for quick escapes or covert exchanges. The exit through the back alley is behind, but the lounge beckons.
 Exits: Lounge, Back Alley
 
 Room: Back Alley
-Description: A narrow, dimly lit alley filled with overflowing trash bins and the acrid smell of wet asphalt. Graffiti covers the brick walls, and a door leading back into The Owl and the Bull is nearly hidden beneath a rusted fire escape.
+Description: A narrow, dimly lit alley filled with overflowing trash bins and the acrid smell of wet asphalt. Graffiti covers the brick walls, and a door leading back to the front of The Owl and the Bull is nearly hidden beneath a rusted fire escape. The Kitchen door swings open.
 Exits: Kitchen, The Owl and the Bull
 
 Room: Valerian High Rise
@@ -83,7 +83,7 @@ Description: The main lobby of the Valerian High-Rise is sleek and modern, with 
 Exits: Car, Suite Hallway, Maintenance Room
 
 Room: Maintenance Room
-Description: A narrow, utilitarian room lined with control panels and emergency access tools, the maintenance room hums with the sound of air circulation systems and power relays. 
+Description: A narrow, utilitarian room lined with control panels and emergency access tools, the maintenance room hums with the sound of air circulation systems and power relays. There's not much to do as the room is full of crates. Perhaps it's best to go back into the Valerian High Rise.
 Exits: Valerian High Rise, Secret Elevator
 
 Room: Suite Hallway
@@ -91,19 +91,19 @@ Description: A long, plush carpeted corridor lined with elegant lighting fixture
 Exits: Valerian High Rise, Clients Room, Fridas Room, Murder Scene
 
 Room: Clients Room
-Description: A tastefully furnished suite with muted tones, the client’s room feels impersonal despite its luxury. A locked door within the suite raises suspicion, and the detective’s curiosity is piqued as to what secrets it may conceal. The hallway beckons, only slightly less than the locked door hidden behind a bio-sensor. 
+Description: A tastefully furnished suite with muted tones, the client’s room feels impersonal despite its luxury. A locked door within the suite raises suspicion, and the detective’s curiosity is piqued as to what secrets it may conceal. The suite hallway beckons, only slightly less than the locked door hidden behind a bio-sensor. 
 Exits: Locked Room, Suite Hallway
 
 Room: Locked Room
-Description: A small, dimly lit chamber within the client’s suite, cluttered with papers, digital devices, and the remnants of a past life. The air feels heavy, as if it holds the weight of secrets long kept hidden. Inside, a heavy chest contains the documents of a foreign national
+Description: A small, dimly lit chamber within the client’s suite, cluttered with papers, digital devices, and the remnants of a past life. The air feels heavy, as if it holds the weight of secrets long kept hidden. Inside, a heavy chest contains the documents of a serious crime. Head back into the clients room?
 Exits: Clients Room
 
 Room: Fridas Room
-Description: Frida’s room is stark and sparsely furnished, with just a bed, a large potted plant, and an intricate workstation. The walls are adorned with printed text overlays, and an open door leads to a separate area, the computer zone, where her work and life blur together.
+Description: Frida’s room is stark and sparsely furnished, with just a bed, a large potted plant, and an intricate workstation. The walls are adorned with printed text overlays, and an open door leads to a separate area, the computer zone, where her work and life blur together. The warm light of the suite hallway beckons.
 Exits: Suite Hallway, Computer Zone
 
 Room: Computer Zone
-Description: A darkened corner of Frida’s suite, the computer zone is dominated by her machine—a sophisticated console surrounded by holographic displays, blinking with intricate code and cryptic symbols. It’s a place of quiet intensity, where Frida spends most of her time connected to the virtual world she helps create.
+Description: A darkened corner of Frida’s suite, the computer zone is dominated by her machine—a sophisticated console surrounded by holographic displays, blinking with intricate code and cryptic symbols. It’s a place of quiet intensity, where Frida spends most of her time connected to the virtual world she helps create. Even Fridas room seems more warm.
 Exits: Fridas Room
 
 Room: Murder Scene
@@ -115,6 +115,5 @@ Description: The secret elevator is a dim, narrow space, with old-fashioned bras
 Exits: Murder Scene, Maintenance Room 
 
 Room: Bedroom
-Description: A sparsely decorated bedroom adjacent to the crime scene, the room holds signs of interrupted routines—a half-open closet, a toppled chair, and an unfinished glass of wine on the nightstand. The atmosphere is heavy with a sense of something left incomplete, and it connects directly back to the room where the murder took place.
-
+Description: A sparsely decorated bedroom adjacent to the crime scene, the room holds signs of interrupted routines—a half-open closet, a toppled chair, and an unfinished glass of wine on the nightstand. The atmosphere is heavy with a sense of something left incomplete, and it connects directly back to the murder scene.
 Exits: Murder Scene
