@@ -1,0 +1,86 @@
+Room: Detectives Office
+Exits: The Garage
+
+Room: Garage
+Exits: Detectives Office, X-Lounge,Car, NightMarket 
+
+Room: NightMarket
+Exits: Garage, OrganMarket, Cypherflesh
+
+Room:Organ Market
+Exits: Nightmarket, Secret Tunnel
+
+Room: Secret Tunnel
+Exits: Organ Market, Laboratory
+
+Room: Laboratory
+Exits: Secret Tunnel, Cypherflesh 
+
+Room: X-Lounge
+Exits: Bar, Bathroom, Opium Den
+
+Room: Bar
+Exits: X-Lounge, Bathroom
+
+Room: Bathroom
+Exits: X-Lounge, Bar 
+
+Room: Opium Den
+Exits: X-Lounge, Ronalds Office
+
+Room: Ronalds Office
+Exits: X-Lounge
+
+Room: Car
+Exits: Garage, Detective’s Apartment, The Owl and the Bull, Valeries High-Rise Lobby
+
+Room: Detective’s Apartment
+Exits: Car, Living Room
+
+Room:Living Room
+Exits: Detective’s Apartment
+
+Room: The Owl and the Bull
+Exits: Car, Lounge, Back Alley
+
+Room: Lounge
+Exits: Council Chamber, The Owl and the Bull, Kitchen
+
+Room: Council Chamber
+Exits: Lounge
+
+Room: Kitchen
+Exits: Lounge, Back Alley
+
+Room: Back Alley
+Exits: Kitchen, The Owl and the Bull
+
+Room: Valerian High Rise
+Exits: Car, Suite Hallway, Maintenance Room
+
+Room: Maintenance Room
+Exits: Valerian High Rise, Secret Elevator
+
+Room: Suite Hallway
+Exits: Valerian High Rise, Clients Room, Fridas Room, Murder Scene
+
+Room: Clients Room
+Exits: Locked Room, Suite Hallway
+
+Room: Locked Room
+Exits: Clients Room
+
+Room: Fridas Room
+Exits: Suite Hallway, Computer Zone
+
+Room: Computer Zone
+Exits: Fridas Room
+
+Room: Murder Scene
+Exits: Bedroom, Secret Elevator
+
+Room: Secret Elevator
+Exits: Murder Scene, Maintenance Room 
+
+Room: Bedroom
+Exits: Murder Scene
