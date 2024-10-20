@@ -1,0 +1,440 @@
+{
+  "rooms": [
+    {
+      "name": "Dungeon Cell",
+      "description": "You awaken to the dim flicker of a dying torch. The cell reeks of mildew and iron, with thick chains strewn on the blood-stained floor. The walls are old, damp stones, each bearing the scars of desperate scratches. Your breaths echo faintly, swallowed by the darkness beyond the rusted bars. There’s a heaviness in the air—a weight of hopelessness and decay that seems to press down with every heartbeat. Somehow the door has opened in the night, and the prison hallway beckons.",
+      "exits": ["Prison Hallway"],
+      "entities": [],
+      "items": ["Torch"],
+      "events": []
+    },
+    {
+      "name": "Prison Hallway",
+      "description": "A cold draft sweeps through the narrow passage, carrying the scent of rot and dried blood. Torches line the stone walls, their weak flames barely pushing back the darkness. The flickering light casts moving shadows that dance like restless spirits. On either side, heavy iron doors, locked tight, guard what remains of the prisoners who once filled this wretched place. The sound of dripping water echoes from somewhere deep within, as does the occasional whisper of something moving unseen.",
+      "exits": ["Locked Cell 1", "Dungeon Cell", "Locked Cell 2", "Guard Room"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Locked Cell 1",
+      "description": "The air in this cell is stagnant, filled with the overwhelming stench of rot. The stone floor is strewn with bones, picked clean by whatever vermin inhabit these halls. Tattered rags and broken manacles suggest a prisoner’s failed attempt at freedom. In the corner, you see what remains of a desperate message etched into the stone: “Beware the light.” Return to the prison hallway?",
+      "exits": ["Prison Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Locked Cell 2",
+      "description": "This cell is colder than the others, as if something beyond the physical lingers here. Broken iron chains are embedded into the stone walls, and the remnants of shackles still hang from them. Strange runes are carved into the stone, their meaning long lost to time, but their presence disturbs you in some primal way. Faint murmurs seem to whisper from the cracks in the walls, pleading to be heard. Return to the prison hallway?",
+      "exits": ["Prison Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Guard Room",
+      "description": "You enter a large chamber, once occupied by the jailers of this wretched place. A long wooden table, now half-rotted and covered in dark stains, dominates the center. Old suits of armor line the walls, worn and brittle with age. A single torch sputters on a rusted sconce, barely providing enough light to illuminate the corners of the room. A narrow staircase winds upwards towards a Castle Tower. The smell of burnt flesh lingers faintly, hinting at what lies down the Cobblestone Hallway.",
+      "exits": ["Prison Hallway", "Secret Storage Room", "Cobblestone Hallway", "Castle Tower"],
+      "entities": [],
+      "items": [],
+      "events": []
+    }
+  ]
+}
+{
+  "rooms": [
+    {
+      "name": "Dungeon Cell",
+      "description": "You awaken to the dim flicker of a dying torch. The cell reeks of mildew and iron, with thick chains strewn on the blood-stained floor. The walls are old, damp stones, each bearing the scars of desperate scratches. Your breaths echo faintly, swallowed by the darkness beyond the rusted bars. There’s a heaviness in the air—a weight of hopelessness and decay that seems to press down with every heartbeat. Somehow the door has opened in the night, and the prison hallway beckons.",
+      "exits": ["Prison Hallway"],
+      "entities": [],
+      "items": ["Torch"],
+      "events": []
+    },
+    {
+      "name": "Prison Hallway",
+      "description": "A cold draft sweeps through the narrow passage, carrying the scent of rot and dried blood. Torches line the stone walls, their weak flames barely pushing back the darkness. The flickering light casts moving shadows that dance like restless spirits. On either side, heavy iron doors, locked tight, guard what remains of the prisoners who once filled this wretched place. The sound of dripping water echoes from somewhere deep within, as does the occasional whisper of something moving unseen.",
+      "exits": ["Locked Cell 1", "Dungeon Cell", "Locked Cell 2", "Guard Room"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Locked Cell 1",
+      "description": "The air in this cell is stagnant, filled with the overwhelming stench of rot. The stone floor is strewn with bones, picked clean by whatever vermin inhabit these halls. Tattered rags and broken manacles suggest a prisoner’s failed attempt at freedom. In the corner, you see what remains of a desperate message etched into the stone: “Beware the light.” Return to the prison hallway?",
+      "exits": ["Prison Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Locked Cell 2",
+      "description": "This cell is colder than the others, as if something beyond the physical lingers here. Broken iron chains are embedded into the stone walls, and the remnants of shackles still hang from them. Strange runes are carved into the stone, their meaning long lost to time, but their presence disturbs you in some primal way. Faint murmurs seem to whisper from the cracks in the walls, pleading to be heard. Return to the prison hallway?",
+      "exits": ["Prison Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Guard Room",
+      "description": "You enter a large chamber, once occupied by the jailers of this wretched place. A long wooden table, now half-rotted and covered in dark stains, dominates the center. Old suits of armor line the walls, worn and brittle with age. A single torch sputters on a rusted sconce, barely providing enough light to illuminate the corners of the room. A narrow staircase winds upwards towards a Castle Tower. The smell of burnt flesh lingers faintly, hinting at what lies down the Cobblestone Hallway.",
+      "exits": ["Prison Hallway", "Secret Storage Room", "Cobblestone Hallway", "Castle Tower"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Secret Storage Room",
+      "description": "This hidden room is cluttered with long-forgotten relics and grim trophies. Chests of splintered wood and rusted iron are piled in disorganized heaps. The walls are lined with ancient scrolls, their texts obscured by layers of dust. Dark stains mark the stone floor, and a mummified corpse sits slumped against the wall, fingers still clutching a brittle parchment. There is a pervasive sense of something watching, though the room appears empty. Return to the guard room?",
+      "exits": ["Guard Room"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Cobblestone Hallway",
+      "description": "The cobblestone path is narrow and uneven, with dark stains marking places where prisoners met their end. Bones crunch underfoot, and the walls feel like they’re closing in, with barely enough space to stretch your arms. An ancient furnace lies to the side, its grates rusted and gaping like a mouth ready to consume. Farther down, the hallway splits towards a Torture Room, and a locked door to Locked Cell 3.",
+      "exits": ["Locked Cell 3", "Torture Room", "Furnace", "Guard Room"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Locked Cell 3",
+      "description": "This cell feels different—older, more cursed than the others. The chains that once held prisoners have long since rusted into brittle, useless fragments. Dried blood covers the walls, and deep gouges suggest a furious struggle. A single, fragile candle flickers feebly on the floor, casting faint light on what looks like an old, tattered cloak, untouched for decades. Return to the cobblestone hallway?",
+      "exits": ["Cobblestone Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Torture Room",
+      "description": "The air here is heavy with the scent of blood and iron. Rusted instruments of pain—racks, iron maidens, and serrated blades—are strewn about haphazardly, each stained with the dark evidence of past suffering. Chains dangle from the ceiling, swaying slightly despite the absence of a breeze. Bones litter the ground, and the stone walls bear deep gouges as if someone—or something—tried to claw its way out. The echoes of distant screams seem to seep from the walls, a grim reminder of the room’s history. Return to the Cobblestone Hallway?",
+      "exits": ["Cobblestone Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Furnace",
+      "description": "The walls of this narrow chamber are blackened with soot, and the heat is stifling. A massive iron furnace sits at the center, its mouth gaping wide like the maw of some infernal beast. The faint, acrid stench of burnt flesh lingers, and remnants of charred bones are scattered near the furnace’s grates. Glowing embers pulse dimly within, casting flickering shadows across the room. The low, unsettling hum of the furnace fills the space, suggesting it is still hungry for more. Return to the Cobblestone Hallway?",
+      "exits": ["Cobblestone Hallway"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Castle Tower",
+      "description": "The stone staircase spirals upward, winding around the ancient walls of the tower. Faded banners, once bearing the insignia of a forgotten house, hang tattered and torn. The walls are cold to the touch, their surfaces pitted and worn from centuries of wind and rain. The air grows heavier as you ascend, a feeling of oppressive weight pressing down from above. A locked iron gate blocks the Castle Exit, its ancient keyhole sealed by rust. Back to the guard room, up, or down?",
+      "exits": ["Castle Exit (locked)", "Up", "Down", "Guard Room"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Up",
+      "description": "The spiral staircase narrows, and the darkness deepens. The walls here are marked with claw-like scratches and faded symbols, remnants of a ritual long forgotten. The faint light from below fades as you ascend, and the sound of your footsteps echoes unnervingly. Each step seems to draw you deeper into the cold embrace of the tower’s heights. Up, or back to the castle tower?",
+      "exits": ["Up 2", "Castle Tower"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Up 2",
+      "description": "This landing is little more than a narrow platform, exposed to the elements. The wind howls through broken windows, and rainwater drips steadily from the ceiling. Lightning occasionally illuminates the walls, revealing ancient runes that glow faintly when struck by the light. A narrow set of stairs leads to the Tower Roof above.",
+      "exits": ["Tower Roof", "Up"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Tower Top",
+      "description": "The roof of the tower is open to the night sky, with cold winds whipping through the crumbling battlements. The fog rolls in thick and heavy, obscuring the landscape beyond. A massive bridge connects the tower to an unseen destination in the distance. A rusted telescope stands on a pedestal, pointed towards the horizon. It is covered in a layer of dust and grime, but its lens seems strangely intact, waiting for someone to peer through it.",
+      "exits": ["Telescope", "Bridge"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Telescope",
+      "description": "The telescope stands silently, a relic from another age. Its bronze casing is tarnished and worn, but the lens remains surprisingly clear. Gazing through it, you can make out faint silhouettes in the fog—a glimpse of ruined structures, half-submerged in the distant mist. The air around the telescope is noticeably colder, and your breath forms visible puffs as you exhale. Something about this place feels ancient and watching, as if eyes long forgotten are observing from the shadows. Go to the bridge?",
+      "exits": ["Bridge"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Bridge",
+      "description": "The ancient bridge stretches over a deep chasm, its stonework cracked and weathered by centuries of neglect. Thick fog rolls in from below, obscuring the depths and occasionally parting to reveal jagged rocks far below. Old chains dangle from the edges, their purpose long forgotten, swaying gently in the cold wind. The only sounds are the distant whispers of the wind and the faint echoes of unseen movement in the fog. The bridge leads towards the Gatehouse from the tower top, its towering structure barely visible through the mist.",
+      "exits": ["Tower Top", "Gatehouse"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Gatehouse",
+      "description": "This heavy structure guards the entrance to the castle grounds, with thick, iron-banded doors looming ominously. The gatehouse is dark and suffocating, with narrow slits in the walls that allow only thin shafts of pale light to pierce the gloom. The air smells of old blood and rust, and a lingering sense of dread hangs heavily in the cold, damp air. A set of heavy chains hangs from the ceiling, connected to rusted mechanisms that once controlled the gate. To the side, worn pathways lead deeper into the castle. It may be worth returning to the bridge, rather than going to the Library, or the execution chamber, or the branding room.",
+      "exits": ["Bridge", "Execution Chamber", "Branding Room", "Library"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Execution Chamber",
+      "description": "The air is thick with the metallic scent of blood and the acrid smell of burnt flesh. In the center of the chamber stands an ancient execution block, its surface marred with dark stains. An old guillotine looms over it, its blade long since dulled and stained a dark crimson. The walls are lined with shackles, their chains rusted and unmoving. Tattered remnants of cloth and ancient splatters of blood speak of countless condemned souls who met their end here. A narrow passage leads back towards the Gatehouse.",
+      "exits": ["Gatehouse", "Blood Machine"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Branding Room",
+      "description": "This small, claustrophobic chamber is filled with tools of pain and symbols of suffering. An iron brazier in the center burns low, its dying embers barely illuminating the twisted branding irons arranged around it. Each iron bears a different symbol, some worn smooth with use, others jagged and cruel. The walls are lined with charred remains of what might have once been human hands, nailed in a grotesque display of punishment. Return to the gatehouse?",
+      "exits": ["Gatehouse", "Blood Machine"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Blood Machine",
+      "description": "This large, imposing chamber is dominated by a mechanical contraption that pulses faintly with dark energy. The machine’s gears and levers are stained with old blood, and the floor is slick with a mixture of oil and ichor. Tubes and pipes snake across the room, connecting to iron tanks and vats filled with some foul concoction. The machinery emits a low, rhythmic hum, like a heartbeat, and the air feels oppressively heavy. Ancient runes are carved into the walls, their meanings lost to time. Narrow passages lead to the Execution Chamber and a secretive Alchemy Lab.",
+      "exits": ["Execution Chamber", "Alchemy Lab"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Library",
+      "description": "The grand library is vast, with towering bookshelves stretching into the darkness above. Dust hangs heavily in the air, stirred only occasionally by a stray gust from a hidden window. The shelves are packed with ancient tomes and scrolls, their spines covered in cobwebs and rot. A heavy, musty smell fills the room, mingled with the faint scent of old parchment and ink. Flickering candles cast eerie shadows on the walls, and you can hear the faint rustling of pages, though no one else is present. Hidden doors lead to a Wizard’s Study, and the mysterious Alchemy Lab.",
+      "exits": ["Secret Shrine", "Wizard's Study", "Alchemy Lab"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Secret Shrine",
+      "description": "The walls of this hidden chamber are adorned with faded murals depicting long-forgotten deities and obscure rites. Ancient candles, their flames flickering weakly, illuminate the shrine's central altar—a stone slab covered in offerings of dried flowers, aged bones, and tarnished coins. A faint, almost inaudible chant resonates through the air, as if the room itself whispers to you. The scent of incense mingles with the lingering staleness of the crypt, suggesting prayers offered in desperation long ago. Return to library?",
+      "exits": ["Library"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Wizard's Study",
+      "description": "This secluded room is filled with old scrolls and alchemical ingredients, stored haphazardly in dusty shelves and on cluttered tables. The walls are lined with dark, heavy drapes, obscuring strange sigils carved into the stone. A lone window, cracked and filthy, lets in just enough light to reveal scattered bones on the floor and an unfinished ritual circle. Strange devices lie on a workbench, their purpose long forgotten, while a heavy crystal menacingly pulses. Return to the library?",
+      "exits": ["Library"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Alchemy Lab",
+      "description": "The air in this dimly lit room is thick with the acrid stench of volatile chemicals. Rusted cauldrons bubble over faintly glowing embers, and glass jars filled with preserved organs and twisted creatures line the shelves. In the center, a large stone table bears the remnants of an unfinished experiment—dried blood, shattered glass, and fragments of ancient tomes. The walls are etched with intricate alchemical symbols, their meanings lost to time. Narrow passages lead to the Blood Machine and an overgrown Graveyard.",
+      "exits": ["Blood Machine", "Graveyard"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Graveyard",
+      "description": "You step into a fog-choked graveyard, where ancient headstones lean at odd angles and skeletal trees claw at the murky sky. The ground is uneven and riddled with shallow graves, many of which appear to have been disturbed from within. A cold, unnatural chill hangs in the air, and every step you take seems to disturb something unseen. Wisps of fog drift through the dark, and in the distance, you can hear the faint scraping of bone against stone. A path leads towards the Crypt. Return to the alchemy lab?",
+      "exits": ["Alchemy Lab", "Crypt"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Crypt",
+      "description": "The crypt is a massive underground chamber filled with rows of stone sarcophagi, each marked with the names of the long-dead. Cobwebs drape across the walls and ceiling, and the air is thick with dust and decay. Flickering torches cast grotesque shadows, revealing ancient carvings depicting rites of burial and judgment. At the far end of the crypt lies a heavy stone door leading to the Temple of Atonement and the Graveyard.",
+      "exits": ["Graveyard", "Locked Cell 1", "Temple of Atonement"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Temple of Atonement",
+      "description": "The temple’s grand hall is filled with broken statues of saints and sinners alike, their expressions frozen in agony or reverence. The floor is covered in a mosaic of shattered glass, its original design long since obscured by age and neglect. A massive altar stands at the far end, where ancient priests once conducted dark rituals to appease or curse the souls of the condemned. Faint traces of sacrificial blood stain the stones. A towering archway leads to the Crystal Cathedral and back to the Crypt.",
+      "exits": ["Crypt", "Crystal Cathedral"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Crystal Cathedral",
+      "description": "The Crystal Cathedral is a vast, towering structure, its walls lined with translucent crystal formations that reflect and refract the faintest light. The ceiling stretches high above, lost in darkness, with suspended crystal chandeliers flickering with ghostly flames. The air is chillingly cold, and the sound of dripping water echoes faintly. The ground is uneven, with patches of sharp crystal jutting out like broken glass. Ancient scriptures carved into the crystal walls hint at forbidden knowledge. From here, twisting paths lead towards the Labyrinthine Warrens, the Temple of Atonement, and a somber Tomb of the Founder.",
+      "exits": ["Temple of Atonement", "Labyrinthine Warrens", "Tomb of the Founder"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Tomb of the Founder",
+      "description": "This vast chamber lies beneath the towering Crystal Cathedral. The air here is cold and heavy, filled with a sense of ancient sorrow. At the center of the tomb lies an ornately carved sarcophagus, adorned with faded runes and depictions of long-forgotten rituals. The walls are lined with statues of ancient figures, their faces worn smooth by centuries of neglect. Shadows gather in the corners, and a faint light flickers from candles that should have burned out long ago. The silence is almost suffocating, broken only by the occasional echo of dripping water. Return to the Crystal Cathedral?",
+      "exits": ["Crystal Cathedral"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Down",
+      "description": "The stone staircase spirals downwards into darkness, the walls gradually narrowing as you descend. Ancient cobwebs stretch across the passage, brushing against you with an unsettling familiarity. The air grows colder with each step, carrying the scent of damp earth and old stone. The occasional creak of wood or clinking chain suggests movement below, but the source remains hidden. A dark landing awaits, leading either further into the depths or back up to the Castle Tower.",
+      "exits": ["Down 2", "Castle Tower"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Depths",
+      "description": "The staircase comes to an abrupt end at a narrow corridor. The walls are closer here, pressing in like the clenched fist of some unseen force. The passage is lined with old, rusted lanterns, their glass cracked and darkened by soot. The air is heavy with the scent of mildew and something else—something rancid and old. This space feels intentionally oppressive, as if designed to crush the spirit. From here, passages lead to an Ominous Doorway, a Cave Opening, and a threatening Crushing Room. Or you can return to where you came from, which is for some reason called 'down' despite being back up the stairs.",
+      "exits": ["Down", "Ominous Doorway", "Cave Opening", "Crushing Room"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Crushing Room",
+      "description": "The ceiling here is disturbingly low, and the walls are lined with massive, ancient gears and pulleys. The floor is uneven, with narrow grooves suggesting the movement of something heavy in the past. The machinery emits a dull, rhythmic thumping noise that reverberates through the stone, as if the walls themselves are breathing. The gears are worn and rusted, but the stains on the floor and walls suggest that this room once saw heavy, and perhaps lethal, use. There is a palpable sense of danger in this place.",
+      "exits": ["Depths"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Ominous Doorway",
+      "description": "The doorway is heavy and ornate, with dark iron reinforcements and faded carvings of monstrous figures. The door is slightly ajar, revealing only a thin sliver of darkness beyond. A cold draft seeps through, carrying with it the faint sound of whispers and the cloying scent of old death. The passage beyond is shrouded in shadows, leading deeper into the Labyrinthine Tunnels. Stepping through feels like crossing an unseen threshold, leaving the familiar world behind.",
+      "exits": ["Labyrinthine Tunnels"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Cave Opening",
+      "description": "The cavern is a vast, open space, its ceiling lost in darkness. The air is thick with the scent of damp earth and the distant roar of rushing water. Stalactites hang ominously from above, and faint echoes suggest something moving in the unseen depths. The walls are lined with ancient carvings, depicting creatures and symbols that have long since faded. A narrow path leads towards the Windy Tunnels, while a small opening reveals a dark River winding its way through the rocks.",
+      "exits": ["Sewers", "Depths", "Cavern"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Cavern",
+      "description": "The cavern is a vast, open space, its ceiling lost in darkness. The air is thick with the scent of damp earth and the distant roar of rushing water. Stalactites hang ominously from above, and faint echoes suggest something moving in the unseen depths. The walls are lined with ancient carvings, depicting creatures and symbols that have long since faded. A narrow path leads towards the Windy Tunnels, while a small opening reveals a dark River winding its way through the rocks. Perhaps return to the cave opening?",
+      "exits": ["Cave Opening", "Windy Tunnels", "River"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Sewers",
+      "description": "The sewers are a network of twisting tunnels, their walls slick with filth and the remains of long-dead creatures. The air is thick with the stench of rot and waste, and the faint sound of rushing water can be heard from somewhere deep within. Faint lanterns flicker on the walls, barely pushing back the darkness. The ground is uneven, covered in murky water and littered with broken bones and discarded refuse. There is a sense of unease here, as if something unseen watches from the shadows. Perhaps head to the cave opening? Surely not the Musty laboratory or the rat pit?!",
+      "exits": ["Cave Opening", "Musty Laboratory", "Rat Pit"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Musty Laboratory",
+      "description": "This small, forgotten room is cluttered with broken tables and rusted equipment. Glass jars filled with murky liquids line the shelves, their contents obscured by layers of grime. The air is thick with the smell of old chemicals and decay, and the floor is littered with broken glass and crumpled parchment. Strange diagrams are scrawled on the walls, hinting at twisted experiments conducted in secrecy. The atmosphere feels heavy with the weight of dark knowledge. Well, back to the sewers or the rat pit huh?",
+      "exits": ["Rat Pit", "Sewers"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Rat Pit",
+      "description": "The pit is a large, sunken chamber filled with the stench of decay and the scurrying of unseen creatures. The floor is littered with bones and gnawed remains, and the walls are scarred with claw marks. The darkness here is oppressive, broken only by the occasional glint of red eyes watching from the shadows. The sound of rats moving through the refuse is constant, and the pit seems to pulse with a life of its own. Narrow tunnels lead back to the Musty Laboratory and the Sewers, with a winding path branching off deeper into the Winding Tunnels.",
+      "exits": ["Musty Laboratory", "Sewers", "Winding Tunnels"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Winding Tunnels",
+      "description": "The narrow tunnels twist and turn without pattern, their paths carved by ancient forces long forgotten. The walls are rough and uneven, with roots snaking through cracks in the stone. The air is cool and damp, and a faint breeze carries distant whispers that seem to emanate from the walls themselves. It’s easy to get lost here, as the tunnels double back on themselves and lead to dead ends with unsettling regularity. Occasional claw marks on the walls hint at past travelers who may not have found their way out. The tunnels connect back to the Rat Pit and open up into the Cavern.",
+      "exits": ["Rat Pit", "Cavern"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "River",
+      "description": "The underground river rushes through the cavern, its dark waters reflecting the faint glimmers of light from above. Jagged rocks protrude from the water's surface, and the current is deceptively strong. The air is thick with mist, making it difficult to see far ahead. The river flows out from the Cavern and winds its way into the Underground Forest, where shadows and overgrown roots dominate the landscape.",
+      "exits": ["Cavern", "Underground Forest"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Underground Forest",
+      "description": "Massive roots coil through the ground, forming a dense network that creates a twisted forest in the depths of the earth. The air is heavy with moisture, and the dim light filters through the dense canopy of roots and fungi. Strange, luminescent plants cast eerie green glows, illuminating ancient stones and hidden paths. The sounds of dripping water and distant rustling add to the feeling of isolation. You can follow the overgrown trail leading back to the River, or take a hidden path that leads to the Witch Coven, a place of dark rituals and haunting energies.",
+      "exits": ["River", "Witch Coven"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Witch Coven",
+      "description": "This secluded grove is dominated by ancient stone pillars arranged in a circle, their surfaces etched with dark, arcane symbols. The ground is covered in a thick layer of dead leaves, and the air is thick with the scent of old herbs and something more sinister. The witches who once called this place home are long gone, but their presence can still be felt in the unnatural silence and the lingering energy in the air. The shadows seem to move of their own accord, watching you with unseen eyes. A narrow path winds back to the Underground Forest, while a treacherous passageway ahead leads to a Spike Trap, a chamber filled with hidden dangers.",
+      "exits": ["Underground Forest", "Spike Trap"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Spike Trap",
+      "description": "The narrow passage opens into a large chamber filled with a dense fog that obscures the floor. Sharp spikes protrude from the ground and ceiling, many of them stained with the dark remnants of those who came before. The walls are covered in carvings depicting scenes of sacrifice and betrayal, and the sound of dripping water echoes through the chamber. Moving through this room requires careful navigation, as a single misstep could be fatal. From here, you can make your way back to the Witch Coven or press forward into the Labyrinthine Warrens beyond.",
+      "exits": ["Witch Coven", "Labyrinthine Warrens"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Labyrinthine Warrens",
+      "description": "A sprawling network of interconnected tunnels and chambers, the Labyrinthine Warrens stretch deep into the earth. The walls are carved with ancient symbols and the remnants of rituals, and the air is heavy with the weight of forgotten secrets. Twisting paths lead deeper into the warren, and dead ends seem to shift and change with every turn. The entrance to the Crystal Cathedral lies at one end, while in the opposite direction a path forks towards a foreboding Dead End and the lair of a fearsome Minotaur.",
+      "exits": ["Crystal Cathedral", "Dead End 1", "Minotaur"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Dead End 1",
+      "description": "The narrow path abruptly ends in a wall of jagged rocks and fallen debris, hinting at a collapse that sealed off whatever lay beyond. The air is stale, and the ground is littered with fragments of stone and old bones, half-buried in the dust. An eerie silence hangs over this dead end, as if even sound has abandoned it. From here, the only way forward is to return to the twisting passages of the Labyrinthine Warrens.",
+      "exits": ["Labyrinthine Warrens"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Minotaur",
+      "description": "The chamber opens up into a vast, dark space where the walls are marked with old bloodstains and deep scratches, evidence of a creature’s rampage. A heavy, ominous breathing echoes through the room, reverberating off the stone walls. At the center, lurking in the shadows, is the massive form of the Minotaur—a monstrous guardian with eyes glowing faintly in the gloom. The air is thick with the scent of sweat, blood, and rage. From here, you can attempt to retreat back to the safety of the Labyrinthine Warrens, or delve deeper into the winding passages of the Labyrinthine Tunnels.",
+      "exits": ["Labyrinthine Warrens", "Labyrinthine Tunnels"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Labyrinthine Tunnels",
+      "description": "The tunnels are an endless maze of twisting passages and dead ends, each one seeming to lead nowhere or back to where you started. The walls are rough-hewn and damp, covered in a thick layer of moss and grime. The sound of dripping water echoes endlessly, and the occasional gust of wind carries faint whispers from unseen corners. The tunnels stretch towards an Ominous Doorway, or continue to a pair of blocked paths—Dead End 2 and Dead End 3—where the walls have collapsed or grown impassable.",
+      "exits": ["Minotaur", "Ominous Doorway", "Dead End 2", "Dead End 3"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Dead End 2",
+      "description": "This narrow passage abruptly terminates in a wall of crumbling stone, with old roots breaking through the gaps. The air is thick and musty, carrying a faint hint of decay. The ground is littered with the remnants of failed excavations—broken pickaxes and discarded ropes—left by those who attempted to find a way through. Dark stains on the wall hint at desperate attempts to claw through the stone, but all efforts seem to have been in vain. There is no way forward here.",
+      "exits": ["Labyrinthine Tunnels"],
+      "entities": [],
+      "items": [],
+      "events": []
+    },
+    {
+      "name": "Dead End 3",
+      "description": "The tunnel ends in a heap of collapsed rocks and debris, the remnants of a long-forgotten cave-in. Dust hangs heavily in the air, and the silence is only broken by the occasional drip of water from somewhere beyond the rubble. The walls are marked with deep scratches, and broken bones protrude from the debris, suggesting that something once tried—and failed—to escape. A chilling sense of finality pervades this dead end, with no hope of passage beyond.",
+      "exits": ["Labyrinthine Tunnels"],
+      "entities": [],
+      "items": [],
+      "events": []
+    }
+  ]
+}
