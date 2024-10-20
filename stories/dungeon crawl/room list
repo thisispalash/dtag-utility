@@ -152,28 +152,46 @@ Description: The pit is a large, sunken chamber filled with the stench of decay 
 Exit: Musty Laboratory, Sewers, Winding Tunnels
 
 Room: Winding Tunnels
+Description: The narrow tunnels twist and turn without pattern, their paths carved by ancient forces long forgotten. The walls are rough and uneven, with roots snaking through cracks in the stone. The air is cool and damp, and a faint breeze carries distant whispers that seem to emanate from the walls themselves. It’s easy to get lost here, as the tunnels double back on themselves and lead to dead ends with unsettling regularity. Occasional claw marks on the walls hint at past travelers who may not have found their way out. The tunnels connect back to the Rat Pit and open up into the Cavern.
 Exit: Rat Pit, Cavern
 
 Room: River
+Description: The underground river rushes through the cavern, its dark waters reflecting the faint glimmers of light from above. Jagged rocks protrude from the water's surface, and the current is deceptively strong. The air is thick with mist, making it difficult to see far ahead. The river flows out from the Cavern and winds its way into the Underground Forest, where shadows and overgrown roots dominate the landscape.
 Exit: Cavern, Underground forest
 
 Room: Underground Forest
+Description: Massive roots coil through the ground, forming a dense network that creates a twisted forest in the depths of the earth. The air is heavy with moisture, and the dim light filters through the dense canopy of roots and fungi. Strange, luminescent plants cast eerie green glows, illuminating ancient stones and hidden paths. The sounds of dripping water and distant rustling add to the feeling of isolation. You can follow the overgrown trail leading back to the River, or take a hidden path that leads to the Witch Coven, a place of dark rituals and haunting energies.
 Exit: River, Witch Coven
 
 Room: Witch Coven
+Description: This secluded grove is dominated by ancient stone pillars arranged in a circle, their surfaces etched with dark, arcane symbols. The ground is covered in a thick layer of dead leaves, and the air is thick with the scent of old herbs and something more sinister. The witches who once called this place home are long gone, but their presence can still be felt in the unnatural silence and the lingering energy in the air. The shadows seem to move of their own accord, watching you with unseen eyes. A narrow path winds back to the Underground Forest, while a treacherous passageway ahead leads to a Spike Trap, a chamber filled with hidden dangers.
 Exit: Underground Forest, Spike Trap
 
 Room: Spike Trap
+Description: The narrow passage opens into a large chamber filled with a dense fog that obscures the floor. Sharp spikes protrude from the ground and ceiling, many of them stained with the dark remnants of those who came before. The walls are covered in carvings depicting scenes of sacrifice and betrayal, and the sound of dripping water echoes through the chamber. Moving through this room requires careful navigation, as a single misstep could be fatal. From here, you can make your way back to the Witch Coven or press forward into the Labyrinthine Warrens beyond.
 Exit: Witch Coven, Labarynthine Warrens
 
 Room: Labarynthine Warrens
+Description: A sprawling network of interconnected tunnels and chambers, the Labyrinthine Warrens stretch deep into the earth. The walls are carved with ancient symbols and the remnants of rituals, and the air is heavy with the weight of forgotten secrets. Twisting paths lead deeper into the warren, and dead ends seem to shift and change with every turn. The entrance to the Crystal Cathedral lies at one end, while in the opposite direction a path forks towards a foreboding Dead End and the lair of a fearsome Minotaur.
 Exit: Crystal Cathedral, Dead End 1, Minotaur
 
 Room: Dead End 1
+Description: The narrow path abruptly ends in a wall of jagged rocks and fallen debris, hinting at a collapse that sealed off whatever lay beyond. The air is stale, and the ground is littered with fragments of stone and old bones, half-buried in the dust. An eerie silence hangs over this dead end, as if even sound has abandoned it. From here, the only way forward is to return to the twisting passages of the Labyrinthine Warrens.
 Exit: Labarynthine Warrens
 
 Room: Minotaur
+Description: The chamber opens up into a vast, dark space where the walls are marked with old bloodstains and deep scratches, evidence of a creature’s rampage. A heavy, ominous breathing echoes through the room, reverberating off the stone walls. At the center, lurking in the shadows, is the massive form of the Minotaur—a monstrous guardian with eyes glowing faintly in the gloom. The air is thick with the scent of sweat, blood, and rage. From here, you can attempt to retreat back to the safety of the Labyrinthine Warrens, or delve deeper into the winding passages of the Labyrinthine Tunnels.
 Exit: Labarynthine Warrens, Labaynthine Tunnels
 
-Room: Labarynthine Tunnels,
+Room: Labarynthine Tunnels
+Description: The tunnels are an endless maze of twisting passages and dead ends, each one seeming to lead nowhere or back to where you started. The walls are rough-hewn and damp, covered in a thick layer of moss and grime. The sound of dripping water echoes endlessly, and the occasional gust of wind carries faint whispers from unseen corners. The tunnels stretch towards an Ominous Doorway, or continue to a pair of blocked paths—Dead End 2 and Dead End 3—where the walls have collapsed or grown impassable.
 Exit: Minotaur, Ominous Doorway, Dead end 2, Dead end 3
+
+Room: Dead End 2
+Description:This narrow passage abruptly terminates in a wall of crumbling stone, with old roots breaking through the gaps. The air is thick and musty, carrying a faint hint of decay. The ground is littered with the remnants of failed excavations—broken pickaxes and discarded ropes—left by those who attempted to find a way through. Dark stains on the wall hint at desperate attempts to claw through the stone, but all efforts seem to have been in vain. There is no way forward here.
+Exit:Labarynthine Tunnels
+
+
+Room: Dead End 3
+Description:The tunnel ends in a heap of collapsed rocks and debris, the remnants of a long-forgotten cave-in. Dust hangs heavily in the air, and the silence is only broken by the occasional drip of water from somewhere beyond the rubble. The walls are marked with deep scratches, and broken bones protrude from the debris, suggesting that something once tried—and failed—to escape. A chilling sense of finality pervades this dead end, with no hope of passage beyond.
+Exit:Labarynthine Tunnels
