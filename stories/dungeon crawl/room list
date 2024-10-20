@@ -68,15 +68,19 @@ Description: This heavy structure guards the entrance to the castle grounds, wit
 Exits: Bridge, Execution Chamber, Branding room, Library
 
 Room: Execution Chamber
-Exits: Gatehouse
+Description: The air is thick with the metallic scent of blood and the acrid smell of burnt flesh. In the center of the chamber stands an ancient execution block, its surface marred with dark stains. An old guillotine looms over it, its blade long since dulled and stained a dark crimson. The walls are lined with shackles, their chains rusted and unmoving. Tattered remnants of cloth and ancient splatters of blood speak of countless condemned souls who met their end here. A narrow passage leads back towards the Gatehouse.
+Exits: Gatehouse, Blood Machine
 
 Room: Branding Room
-Exit: Blood Machine
+Description: This small, claustrophobic chamber is filled with tools of pain and symbols of suffering. An iron brazier in the center burns low, its dying embers barely illuminating the twisted branding irons arranged around it. Each iron bears a different symbol, some worn smooth with use, others jagged and cruel. The walls are lined with charred remains of what might have once been human hands, nailed in a grotesque display of punishment. Return to the gatehouse?
+Exit: Gatehouse, Blood Machine
 
 Room: Blood Machine
+Description: This large, imposing chamber is dominated by a mechanical contraption that pulses faintly with dark energy. The machine’s gears and levers are stained with old blood, and the floor is slick with a mixture of oil and ichor. Tubes and pipes snake across the room, connecting to iron tanks and vats filled with some foul concoction. The machinery emits a low, rhythmic hum, like a heartbeat, and the air feels oppressively heavy. Ancient runes are carved into the walls, their meanings lost to time. Narrow passages lead to the Execution Chamber and a secretive Alchemy Lab.
 Exit: Execution Chamber, Alchemy Lab
 
 Room: Library
+Description: The grand library is vast, with towering bookshelves stretching into the darkness above. Dust hangs heavily in the air, stirred only occasionally by a stray gust from a hidden window. The shelves are packed with ancient tomes and scrolls, their spines covered in cobwebs and rot. A heavy, musty smell fills the room, mingled with the faint scent of old parchment and ink. Flickering candles cast eerie shadows on the walls, and you can hear the faint rustling of pages, though no one else is present. Hidden doors lead to a Wizard’s Study, and the mysterious Alchemy Lab.
 Exit: Secret Shrine, Wizards Study, Alchemy Lab
 
 Room: Secret Shrine
