@@ -1,86 +1,120 @@
 Room: Detectives Office
+Description: The detective’s office is a dimly lit space filled with the scent of old leather and stale coffee, illuminated by a solitary desk lamp that casts deep shadows across scattered case files. A creaky door leads out to the garage, where the city’s chaos awaits beyond.
 Exits: The Garage
 
 Room: Garage
+Description: A vast, dimly lit underground garage, its walls lined with flickering neon signs and old posters peeling from the damp. Oil stains mark the cracked floor, and your car sits waiting under a single spotlight. The lights of the Nightmarket beckon, along with the subtle pleasure of the X-Lounge, surely the detective will go to his car... and not back up the stairs to his office. No matter how tempting.
 Exits: Detectives Office, X-Lounge,Car, NightMarket 
 
 Room: NightMarket
+Description: A crowded, labyrinthine alley where vendors peddle illicit tech, counterfeit goods, and obscure relics in the glow of neon and flickering holograms. The market’s winding paths lead deeper into the shadows, toward the Organ Market, the Cypherflesh or back to the relative safety of the garage.
 Exits: Garage, OrganMarket, Cypherflesh
 
-Room:Organ Market
+Room: Cypherflesh
+Description: The Cypherflesh is a surreal digital labyrinth, where the boundaries between reality and code blur into a disorienting web of shifting corridors and fragmented memories. Glowing lines of text pulse and ripple across the walls, occasionally forming incomplete images or eerie whispers that hint at lost data or forgotten events. The space feels both infinite and claustrophobic, with pathways that loop and intersect in a way that seems almost alive. One may head back to the nightmarket, or down into the laboratory.
+Exits: Nightmarket, Laboratory
+
+Room: Organ Market
+Description: In a hidden corner of the NightMarket lies the Organ Market, where whispered deals are made in stalls lined with vats of bio-mods and floating organs. The heavy scent of antiseptic mixes with the earthy smell of blood. The door back into the nightmarket is very tempting.
 Exits: Nightmarket, Secret Tunnel
 
 Room: Secret Tunnel
+Description: A damp, echoing tunnel, dimly lit by overhead bulbs that flicker intermittently, revealing graffiti from years of passing rebels and outcasts. The tunnel connects the underbelly of the city to a clandestine laboratory, shrouded in mystery. Perhaps returning to the organ market would be preferable?
 Exits: Organ Market, Laboratory
 
 Room: Laboratory
+Description: A sterile, cold room filled with blinking consoles and towering equipment. The scent of chemicals permeates the air, and shelves are lined with labeled vials and half-finished experiments. Horrific sounds screech and scream all around. A terribly unnerving chill occupies all but the scientists at work. It may be best to return to the cypherflesh.
 Exits: Secret Tunnel, Cypherflesh 
 
 Room: X-Lounge
+Description: A dimly lit lounge with plush velvet couches and low tables, filled with the murmur of discreet conversations. The exits lead to a smoky bar, a shadowy bathroom, or the enticing, velvet-curtained opium den.
 Exits: Bar, Bathroom, Opium Den
 
 Room: Bar
+Description: A dim, smoky bar where glasses clink and low jazz reverberates through the walls. Bartenders pour drinks under soft lighting.
 Exits: X-Lounge, Bathroom
 
 Room: Bathroom
+Description: The bathroom is a cramped, dimly lit space with cracked tiles and an overhead light that buzzes faintly. The stale air smells of disinfectant and smoke from the nearby bar.
 Exits: X-Lounge, Bar 
 
 Room: Opium Den
+Description: Thick, aromatic smoke hangs in the air of the opium den, where patrons recline on cushioned floors and heavy curtains obscure the outside world. There is a heavy iron door in the back. 
 Exits: X-Lounge, Ronalds Office
 
 Room: Ronalds Office
+Description: A private office with heavy wooden furniture and a large desk cluttered with ledgers and empty glasses. The walls are adorned with old portraits and maps, and Ronald himself is often found behind the desk, shuffling through papers or meeting clandestine visitors.
 Exits: X-Lounge
 
 Room: Car
+Description: The detective’s car is a compact, retrofitted vehicle with reinforced windows and worn leather seats, giving it a well-traveled feel. The cityscape passes in blurred neon as the car navigates narrow streets.
 Exits: Garage, Detective’s Apartment, The Owl and the Bull, Valeries High-Rise Lobby
 
 Room: Detective’s Apartment
+A small, dim apartment with sparse decorations, reflecting a life lived mostly on the move. A door leads to the living room, where the detective spends brief moments away from his whiskey.
 Exits: Car, Living Room
 
 Room:Living Room
+Description: A modest, cluttered living room with mismatched furniture and a dusty TV displaying static images. Papers and case files are scattered on a coffee table, and a small window overlooks the city below.
 Exits: Detective’s Apartment
 
 Room: The Owl and the Bull
+Description: Neon lights frame the famed hang-out of the citys rich and famous. Entrance is barred to the common-folk of the city, only a select few chosen members are able to enter via bioscanner.
 Exits: Car, Lounge, Back Alley
 
 Room: Lounge
+Description:  plush, dimly lit space within The Owl and the Bull, where influential figures mingle behind closed doors. The scent of expensive cigars hangs in the air, and a corridor leads toward the imposing Council Chamber or a busy kitchen.
 Exits: Council Chamber, The Owl and the Bull, Kitchen
 
 Room: Council Chamber
+Description:  grand hall lined with old portraits and tall marble pillars, where decisions that shape the city are made. The air is heavy with the weight of tradition, and the room is filled with whispered arguments and the occasional echo of a gavel.
 Exits: Lounge
 
 Room: Kitchen
+Description: A chaotic, steamy kitchen where cooks prepare lavish meals for The Owl and the Bull’s patrons. The sounds of sizzling pans and chopping knives create a hurried rhythm, with a back door leading to the alley for quick escapes or covert exchanges.
 Exits: Lounge, Back Alley
 
 Room: Back Alley
+Description: A narrow, dimly lit alley filled with overflowing trash bins and the acrid smell of wet asphalt. Graffiti covers the brick walls, and a door leading back into The Owl and the Bull is nearly hidden beneath a rusted fire escape.
 Exits: Kitchen, The Owl and the Bull
 
 Room: Valerian High Rise
+Description: The main lobby of the Valerian High-Rise is sleek and modern, with polished marble floors and automated reception systems welcoming guests. The dim ambient lighting and tasteful, minimalistic décor project an air of quiet luxury, while discreet pathways lead to the suite hallway or a less-traveled maintenance room.
 Exits: Car, Suite Hallway, Maintenance Room
 
 Room: Maintenance Room
+Description: A narrow, utilitarian room lined with control panels and emergency access tools, the maintenance room hums with the sound of air circulation systems and power relays. 
 Exits: Valerian High Rise, Secret Elevator
 
 Room: Suite Hallway
+Description: A long, plush carpeted corridor lined with elegant lighting fixtures, the suite hallway is eerily quiet, the sound of the city muffled by thick walls. Several doors lead to the private suites, including the client’s room, Frida’s room, and a foreboding murder scene.
 Exits: Valerian High Rise, Clients Room, Fridas Room, Murder Scene
 
 Room: Clients Room
+Description: A tastefully furnished suite with muted tones, the client’s room feels impersonal despite its luxury. A locked door within the suite raises suspicion, and the detective’s curiosity is piqued as to what secrets it may conceal. The hallway beckons, only slightly less than the locked door hidden behind a bio-sensor. 
 Exits: Locked Room, Suite Hallway
 
 Room: Locked Room
+Description: A small, dimly lit chamber within the client’s suite, cluttered with papers, digital devices, and the remnants of a past life. The air feels heavy, as if it holds the weight of secrets long kept hidden. Inside, a heavy chest contains the documents of a foreign national
 Exits: Clients Room
 
 Room: Fridas Room
+Description: Frida’s room is stark and sparsely furnished, with just a bed, a large potted plant, and an intricate workstation. The walls are adorned with printed text overlays, and an open door leads to a separate area, the computer zone, where her work and life blur together.
 Exits: Suite Hallway, Computer Zone
 
 Room: Computer Zone
+Description: A darkened corner of Frida’s suite, the computer zone is dominated by her machine—a sophisticated console surrounded by holographic displays, blinking with intricate code and cryptic symbols. It’s a place of quiet intensity, where Frida spends most of her time connected to the virtual world she helps create.
 Exits: Fridas Room
 
 Room: Murder Scene
+Description: The crime scene is a chillingly pristine apartment with a modern design, its once sleek and luxurious surfaces now marred by signs of a struggle. The stark lighting casts harsh shadows on scattered belongings and splashes of crimson, while the air is heavy with the metallic scent of blood. A narrow passage connects to the bedroom.
 Exits: Bedroom, Secret Elevator
 
 Room: Secret Elevator
+Description: The secret elevator is a dim, narrow space, with old-fashioned brass fixtures contrasting against the sleek digital control panel. The ride is eerily silent, with only the faint hum of machinery as it descends or ascends to the maintenance room or murder scene.
 Exits: Murder Scene, Maintenance Room 
 
 Room: Bedroom
+Description: A sparsely decorated bedroom adjacent to the crime scene, the room holds signs of interrupted routines—a half-open closet, a toppled chair, and an unfinished glass of wine on the nightstand. The atmosphere is heavy with a sense of something left incomplete, and it connects directly back to the room where the murder took place.
+
 Exits: Murder Scene
