@@ -1,0 +1,140 @@
+Room: Dungeon Cell
+(Item: Torch)
+Exits: (Prison Hallway)
+
+Room: Prison Hallway
+Exits (Locked Cell 1, Dungeon Cell, Locked Cell 2, Guard Room)
+
+Room: Locked Cell 1
+Exits: Prison Hallway
+Room: Locked Cell 2
+Exits: Prison Hallway
+
+Room: Guard Room
+Exits: Prison Hallway, Secret StorageRoom, Cobblestone Hallway, castle tower
+
+Room: Secret StorageRoom
+Exit: Guard Room
+
+Room: Cobblestone Hallway
+Exits: LockedCell 3, Torture Room, Furnace, Guard Room
+
+Room:  Locked Cell 3
+Exit: Cobblestone Hallway
+
+Room:  Torture Room
+Exit: Cobblestone Hallway
+
+Room:  Furnace
+Exit: Cobblestone Hallway
+
+Room: Castle Tower
+Exits: Castle Exit (locked), Up, Down
+
+Room: Up
+Exits: Up 2, Castle Tower
+
+Room: Up 2
+Exits Tower Roof
+
+Room: Tower Top
+Exits: Telescope, Bridge
+
+Room: Telescope
+Exits: Tower Top
+
+Room: Bridge
+Exits: Tower Top, Gatehouse
+
+Room: Gatehouse
+Exits: Bridge, Execution Chamber, Branding room, Library
+
+Room: Execution Chamber
+Exits: Gatehouse
+
+Room: Branding Room
+Exit: Blood Machine
+
+Room: Blood Machine
+Exit: Execution Chamber, Alchemy Lab
+
+Room: Library
+Exit: Secret Shrine, Wizards Study, Alchemy Lab
+
+Room: Secret Shrine
+Exit: Library
+
+Room: Wizards Study
+Exit: Library
+
+Room: Alchemy Lab 
+Exit: Blood Machine, Graveyard
+
+Room: Graveyard
+Exit: Alchemy Lab, Crypt
+
+Room: Crypt
+Exit: Graveyard, Locked Cell 1, Temple of Atonement 
+
+Room: Temple of Atonement
+Exit: Crypt, Crystal Cathedral
+
+Room: Crystal Cathedral
+Exit: Temple of Atonement, Labarynthine Warrens, Tomb of the Founder
+
+Room: Tomb of the Founder
+Exit: Crystal Cathedral
+
+Room: Down
+Exits: Down 2, Castle Tower
+
+Room: Down 2
+Exits: Down, Ominous Doorway, Cave Opening, Crushing Room
+
+Room: Crushing Room
+Exit: Down 2
+
+Room: Ominous Doorway
+Exit: Labyrinthine tunnels
+
+Room: Cave Opening
+Exit: Sewers, Down 2, Cavern
+
+Room: Cavern
+Exit: Cave Opening, Windy Tunnels, River
+
+Room: Sewers
+Exit: Cave Opening, Musty Laboratory, Rat Pit
+
+Room: Musty Laboratory 
+Exit: Rat Pit, Sewers
+
+Room: Rat Pit
+Exit: Musty Laboratory, Sewers, Winding Tunnels
+
+Room: Winding Tunnels
+Exit: Rat Pit, Cavern
+
+Room: River
+Exit: Cavern, Underground forest
+
+Room: Underground Forest
+Exit: River, Witch Coven
+
+Room: Witch Coven
+Exit: Underground Forest, Spike Trap
+
+Room: Spike Trap
+Exit: Witch Coven, Labarynthine Warrens
+
+Room: Labarynthine Warrens
+Exit: Crystal Cathedral, Dead End 1, Minotaur
+
+Room: Dead End 1
+Exit: Labarynthine Warrens
+
+Room: Minotaur
+Exit: Labarynthine Warrens, Labaynthine Tunnels
+
+Room: Labarynthine Tunnels,
+Exit: Minotaur, Ominous Doorway, Dead end 2, Dead end 3
